@@ -1,0 +1,16 @@
+.add__btn {
+    width: 28px;
+    height: 28px;
+
+    border: 2px solid #FC76A1;
+    border-radius: 10px;
+
+    background: #FC76A1;
+    color: #181820;
+
+    cursor: pointer;
+}
+
+.add__btn:hover {
+    color: #fff;
+}

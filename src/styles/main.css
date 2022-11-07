@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #fff;
+
+    background-color: #181820;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.form__container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+    width: 350px;
+    height: 230px;
+
+    background: #21212B;
+    border-radius: 30px;
+
+}

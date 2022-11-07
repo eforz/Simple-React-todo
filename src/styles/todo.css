@@ -1,0 +1,53 @@
+.container {
+
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+.todo__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 550px;
+
+    gap: 30px;
+}
+
+.todo__header {
+    margin-top: 50px;
+}
+
+.add__todo {
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+    width: 100%;
+
+    border: 2px solid #31313d;
+    border-radius: 20px;
+}
+
+.todo__item {
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+    width: 100%;
+    width: 550px;
+
+    
+    border: 2px solid #31313d;
+    background: #21212B;
+    border-radius: 20px; 
+}
+
+.strike {
+    text-decoration: line-through;
+}

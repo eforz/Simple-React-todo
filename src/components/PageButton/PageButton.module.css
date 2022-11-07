@@ -1,0 +1,11 @@
+.page__Button {
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.page__Button:hover {
+    border-color: #FC76A1;
+}
+
